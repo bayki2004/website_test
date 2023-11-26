@@ -1,0 +1,135 @@
+*{
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+}
+.dropbtn{
+    border: 4px solid green; 
+
+    background-color: white;
+    color: rgba(136, 107, 21, 0.935);
+    padding: 16px;
+    font-size: 16px;
+    border: 10px;
+    margin-bottom: 0%;
+    transition: background-color 1s ease, color 1s ease;
+    
+}
+.dropbtn:hover{
+    transition: background-color 1s ease, color 1s ease;
+    opacity: 50%;
+}
+.dropdown:hover{
+    transition: background-color 1s ease, color 1s ease;
+
+}
+.dropdown {
+    border: 4px solid blue; 
+    position: relative;
+    top: 50%;
+    right: -40%;
+    display: inline-block;
+    transition: background-color 1s ease, color 1s ease;
+    
+}
+h1 { color: #111; 
+    font-family: 
+    'Open Sans Condensed', sans-serif; 
+    font-size: 64px; 
+    font-weight: 700; 
+    line-height: 64px; 
+    margin: 0% 0%; 
+    padding: 1% 0%; 
+    text-align: center; 
+    text-transform: uppercase; 
+    border: 4px solid red; 
+
+
+}
+.dropdown_content {
+    border: 4px solid red; 
+
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+    float:right;
+    top: 100%;
+    
+    padding: 5% 5%;
+    transition: background-color 1s ease, color 1s ease;
+
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown_content a {
+    border: 4px solid blue; 
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition: all 0.5 ease;
+    padding: 20% 5%;
+   
+
+  }
+  .dropdown_content a:hover {
+    background-color: #ddd; 
+    transition: background-color 1s ease, color 1s ease;
+
+    
+    
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_content {
+    transition: all 0.5s ease;
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+    float:right;
+    margin: auto;
+    padding: 5% 5%;
+    border: 4px solid green; 
+
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    border: 4px solid black; 
+    transition: all 0.5s ease;
+}
+  header {
+    background-color: burlywood;
+    color: #fff;
+    
+    text-align: center;
+    z-index: 999;
+    border: 4px solid blue; 
+}
+  
+  /* Links inside the dropdown */
+  .logo {
+    border: 4px solid red; 
+    margin: 0 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo img {
+    margin: 2% 2%; /* Adjust the margin as needed to add space between the images */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border: 4px solid red; 
+    padding: 0;
+
+}
+ 
